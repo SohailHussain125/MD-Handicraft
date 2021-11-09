@@ -118,18 +118,18 @@ export class BasicElements extends Component {
           <div className="col-12 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
-                <h4 className="card-title">Basic form elements</h4>
-                <p className="card-description"> Basic form elements </p>
+                <h4 className="card-title">Product Form</h4>
+                <p className="card-description"> Product Form </p>
                 <form className="forms-sample">
                   <Form.Group>
                     <label htmlFor="exampleInputName1">Name</label>
                     <Form.Control type="text" className="form-control" id="exampleInputName1" placeholder="Name" />
                   </Form.Group>
                   <Form.Group>
-                    <label htmlFor="exampleInputEmail3">Email address</label>
-                    <Form.Control type="email" className="form-control" id="exampleInputEmail3" placeholder="Email" />
+                    <label htmlFor="exampleInputEmail3">Price</label>
+                    <Form.Control type="text" className="form-control" id="exampleInputEmail3" placeholder="Email" />
                   </Form.Group>
-                  <Form.Group>
+                  {/* <Form.Group>
                     <label htmlFor="exampleInputPassword4">Password</label>
                     <Form.Control type="password" className="form-control" id="exampleInputPassword4" placeholder="Password" />
                     </Form.Group>
@@ -139,7 +139,7 @@ export class BasicElements extends Component {
                       <option>Male</option>
                       <option>Female</option>
                     </select>
-                  </Form.Group>
+                  </Form.Group> */}
                   <Form.Group>
                     <label>File upload</label>
                     <div className="custom-file">
@@ -147,12 +147,12 @@ export class BasicElements extends Component {
                       <label className="custom-file-label" htmlFor="customFileLang">Upload image</label>
                     </div>
                   </Form.Group>
-                  <Form.Group>
+                  {/* <Form.Group>
                     <label htmlFor="exampleInputCity1">City</label>
                     <Form.Control type="text" className="form-control" id="exampleInputCity1" placeholder="Location" />
-                  </Form.Group>
+                  </Form.Group> */}
                   <Form.Group>
-                    <label htmlFor="exampleTextarea1">Textarea</label>
+                    <label htmlFor="exampleTextarea1">Description</label>
                     <textarea className="form-control" id="exampleTextarea1" rows="4"></textarea>
                   </Form.Group>
                   <button type="submit" className="btn btn-primary mr-2">Submit</button>
