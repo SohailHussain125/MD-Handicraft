@@ -21,7 +21,7 @@ export class BasicElements extends Component {
   render() {
     return (
       <div>
-        <div className="page-header">
+        {/* <div className="page-header">
           <h3 className="page-title"> Form elements </h3>
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
@@ -29,9 +29,9 @@ export class BasicElements extends Component {
               <li className="breadcrumb-item active" aria-current="page">Form elements</li>
             </ol>
           </nav>
-        </div>
+        </div> */}
         <div className="row">
-          <div className="col-md-6 grid-margin stretch-card">
+          {/* <div className="col-md-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Default form</h4>
@@ -65,8 +65,8 @@ export class BasicElements extends Component {
                 </form>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 grid-margin stretch-card">
+          </div> */}
+          {/* <div className="col-md-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
                 <h4 className="card-title">Horizontal Form</h4>
@@ -114,7 +114,7 @@ export class BasicElements extends Component {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-12 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">

@@ -133,15 +133,14 @@ export class BasicTable extends Component {
                       <tr>
                         <th> Product Image </th>
                         <th> Product Name </th>
-                        {/* <th> Progress </th> */}
                         <th> Amount </th>
                         <th> Decription </th>
-                        {/* <th> Deadline </th> */}
+                        <th> Action </th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> Herman Beck </td>
@@ -149,9 +148,20 @@ export class BasicTable extends Component {
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
                         </td>
+
+                        <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
+                        </td>
+
                       </tr>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> Messsy Adam </td>
@@ -159,9 +169,18 @@ export class BasicTable extends Component {
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
                         </td>
+                         <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> John Richards </td>
@@ -169,9 +188,18 @@ export class BasicTable extends Component {
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
                         </td>
+                         <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> Peter Meggik </td>
@@ -179,9 +207,18 @@ export class BasicTable extends Component {
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
                         </td>
+                         <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> Edward </td>
@@ -189,9 +226,18 @@ export class BasicTable extends Component {
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
                         </td>
+                         <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> John Doe </td>
@@ -199,15 +245,33 @@ export class BasicTable extends Component {
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
                         </td>
+                         <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td className="py-1">
+                        <td className="product-image">
                           <img src={require("../../assets/images/product_images_2/thumb_image2.jpg")} alt="user icon" />
                         </td>
                         <td> Henry Tom </td>
                         <td> $ 150.00 </td>
                         <td>
                           Description is the pattern of narrative development that aims to make vivid a place, object.
+                        </td>
+                         <td >
+                          <div style={{
+                            display: 'flex',
+                            justifyContent: "space-evenly"
+                          }}>
+                            <span className="edit"><i className="mdi mdi-table-edit"></i></span>
+                            <span className="delete"><i className="mdi mdi-delete"></i></span>
+                          </div>
                         </td>
                       </tr>
                     </tbody>
